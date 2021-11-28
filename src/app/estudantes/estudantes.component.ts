@@ -16,7 +16,7 @@ export class EstudantesComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  onSelect(estudante: Estudante): void {
+  onselect(estudante: Estudante): void {
     this.selectedEstudante = estudante;
   }
 }
